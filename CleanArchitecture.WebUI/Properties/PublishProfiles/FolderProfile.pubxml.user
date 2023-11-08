@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\dpuntos\source\repos\CleanArchitecture\CleanArchitecture.WebUI\bin\Release\net7.0\browser-wasm\publish\</_PublishTargetUrl>
+    <History>True|2023-11-07T09:35:31.5196107Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

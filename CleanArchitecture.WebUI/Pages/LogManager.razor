@@ -1,0 +1,21 @@
+﻿@page "/logmanager"
+@using CleanArchitecture.ApplicationCore;
+@using CleanArchitecture.Domain;
+@inject ILogRepository _LogRepository
+
+<PageTitle>Log Manager</PageTitle>
+
+<h3>LogManager</h3>
+
+<button class="btn btn-primary" @onclick="GetLogsAsync">Click me</button>
+
+<p role="status">- First Log: @message</p>
+
+@code {
+    private string? message = "No logs";
+    private async Task GetLogsAsync()
+    {
+        var result = await _LogRepository.GetLogsAsync();
+        message = result.First().message;
+    }
+}
