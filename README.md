@@ -10,7 +10,7 @@ In summary, the idea is to structure the code as follows:
 
 ## Diagram
 <p align="center">
-  <img src="../master/Diagram.png">
+  <img src="../main/Diagram.png">
 </p>
 
 As you can see, Web Application is completely unaware of the implementation of the interfaces. These implementations are obtained through a dependency container.
@@ -20,6 +20,6 @@ However, there's another notable feature to highlight. This architecture allows 
 
 ## Diagram with Unit Testing Layer
 <p align="center">
-  <img src="../master/DiagramUT.png">
+  <img src="../main/DiagramUT.png">
 </p>
 Indeed, you could use the entire implementation layer in other kinds of applications, not only for unit tests but also, for example, in desktop or mobile applications.
